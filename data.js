@@ -35,6 +35,60 @@ And don't forget the semicolon at the end of the line.
 console.log(exampleVariable);
 
 // WRITE YOUR CODE BELOW THIS LINE
+let title = "Harry Potter and the Philosopher's Stone";
+console.log(title);
+
+let author = "Author	J. K. Rowling";
+console.log(author);
+
+let year = 1997;
+console.log(year);
+
+let isNewerThan2000 = false;
+console.log (isNewerThan2000);
+
+let age = 2023-1997;
+console.log(age);
+
+let characters = ["Harry Potter", "Lord Voldemort","Albus Dumbledor","Rubeus Hagrid"];
+console.log(characters[1]);
+
+let favoriteBook = { title:"Harry Potter",
+                     author:"J. K. Rowling",
+                     year: 1997,
+                     isnewerThan2000: false,
+                     age: 26,
+                     characters:["Harry Potter", "Lord Voldemort", "Albus Dumbledor", "Rubeus Hagrid"]
+};
+    console.log(favoriteBook.year);
+    console.log(favoriteBook.characters[1]);
+
+    let favoriteBooks = [{ title:"Harry Potter",
+                     author:"J. K. Rowling",
+                     year: 1997,
+                     isnewerThan2000: false,
+                     age: 26,
+                     characters:["Harry Potter", "Lord Voldemort", "Albus Dumbledor", "Rubeus Hagrid"]
+},
+ {
+                     title: "Hobbit",
+                     author: "J. R. R. Tolkien",
+                     year:1937,
+                     isNewerThan2000: false,
+                     age: 2023-1937,
+                     characters:["Bilbo Baggins","Gandalf","Thorin","Elrond"]
+ }        
+];
+
+console.log(favoriteBooks[0].title);
+
+console.log(favoriteBooks[1].characters[3]);
+
+console.log(favoriteBooks[0].year-favoriteBooks[1].year);
+
+    
+
+
 
 
 // DO NOT MODIFY THE CODE BELOW THIS LINE
