@@ -35,6 +35,7 @@ And don't forget the semicolon at the end of the line.
 console.log(exampleVariable);
 
 // WRITE YOUR CODE BELOW THIS LINE
+
 let title = "Harry Potter and the Philosopher's Stone";
 console.log(title);
 
